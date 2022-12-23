@@ -5,7 +5,7 @@ This extension does one thing. It removes the View counts from the Twitter websi
 
 To install it:
 
-1. Clone the repo. Or grab the .zip file from this release page and unzip it.
+1. Clone this project to your computer. Or download it as .zip file from this page (click on the green "Code" button), and unzip it.
 
 Then follow these steps:
 
