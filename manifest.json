@@ -1,0 +1,32 @@
+{
+  "name": "Remove Twitter view counts",
+  "author": "Philipp Tsipman <philtsip@gmail.com> (https://github.com/philtsip)",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Chrome extension to remove Twitter view counts",
+  "homepage_url": "https://github.com/philtsip/remove-twitter-views-extension",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "default_locale": "en",
+  "browser_action": {
+    "default_icon": "icons/icon48.png",
+    "default_title": "Remove Twitter view counts"
+  },
+  "permissions": [
+    "https://twitter.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://twitter.com/*"
+      ],
+      "js": [
+        "src/inject/inject.js"
+      ]
+    }
+  ]
+}
