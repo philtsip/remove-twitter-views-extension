@@ -17,6 +17,7 @@
     "default_title": "Remove Twitter view counts"
   },
   "permissions": [
+    "tabs",
     "https://twitter.com/*"
   ],
   "content_scripts": [
